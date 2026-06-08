@@ -1,47 +1,65 @@
 # PacketAlchemy Telecom Notes
 
-A collection of practical notes, diagrams and troubleshooting guides from the world of mobile core networks.
+Turning mobile network packets into knowledge.
 
-## Topics
+A practical collection of notes, architectures, and troubleshooting guides from real-world mobile core networks (PS Core, EPC, 5G Core).
 
-### LTE / EPC
-- LTE Attach Procedure
-- Bearers
-- APN Handling
-- PCC Architecture
+---
 
-### 5G Core
-- Service Based Architecture
-- Network Functions
-- Registration Procedure
+## 🚀 Focus Areas
 
-### Charging
-- OCS Integration
-- Gy Interface
-- Gx Interface
-- Online Charging
+### 📡 LTE / EPC
+- Attach / Detach procedures
+- Bearer management (Default / Dedicated)
+- APN selection & routing
+- PCC architecture (PCRF, PCEF)
 
-### DNS
-- DNS in EPC
-- Node Discovery
-- FQDN Design
+### ☁️ 5G Core
+- Service-Based Architecture (SBA)
+- Network Functions (AMF, SMF, UPF)
+- Registration & PDU session establishment
 
-### Roaming
-- LTE Roaming
-- Steering of Roaming
-- Data Restriction Scenarios
+### 💳 Charging
+- Online Charging System (OCS)
+- Gy / Gx / Rx interfaces
+- Credit control & policy enforcement
 
-### Protocols
-- GTP-C
-- GTP-U
-- Diameter
-- HTTP/2
-- SBI
+### 🌐 DNS in Mobile Networks
+- DNS role in EPC / 5GC
+- Node discovery mechanisms
+- FQDN design for network elements
 
-## Author
+### 🌍 Roaming
+- LTE roaming architecture
+- Steering of roaming (SoR)
+- Data restriction scenarios in roaming
 
-Reza Reyhanian (PacketAlchemy)
+### 🔌 Protocols
+- GTP-C / GTP-U
+- Diameter (Gy, Gx, S6a)
+- HTTP/2 (SBI in 5GC)
 
-## License
+---
 
-MIT
+## 🧠 Purpose
+
+This repository is not theoretical documentation.
+
+It is based on:
+- Real telecom network behavior
+- Troubleshooting experience
+- Core network analysis (PS Core / EPC / 5GC)
+
+---
+
+## 👤 Author
+
+**Reza Reyhanian**  
+PacketAlchemy  
+Telecom Engineer | PS Core | LTE/5G | DNS | Automation
+
+---
+
+## 📌 Notes
+
+More technical diagrams, packet flows, and Python tools will be added over time.
