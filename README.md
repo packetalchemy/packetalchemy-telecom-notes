@@ -1,94 +1,126 @@
-# PacketAlchemy Telecom Notes
+# PacketAlchemy – Telecom Core Engineering Knowledge Base
 
-Turning mobile network packets into knowledge.
+## 🧠 Overview
 
-A practical collection of notes, architectures, and troubleshooting guides from real-world mobile core networks (PS Core, EPC, 5G Core).
+PacketAlchemy is a structured engineering knowledge base focused on **mobile core networks** and real-world telecom systems.
 
----
+It covers both **LTE/EPC** and **5G Core (5GC)** from an operator and vendor perspective, including architecture, signaling, troubleshooting, and system design.
 
-## 🚀 Focus Areas
-
-### 📡 LTE / EPC
-- Attach / Detach procedures
-- Bearer management (Default / Dedicated)
-- APN selection & routing
-- PCC architecture (PCRF, PCEF)
-
-### ☁️ 5G Core
-- Service-Based Architecture (SBA)
-- Network Functions (AMF, SMF, UPF)
-- Registration & PDU session establishment
-
-### 💳 Charging
-- Online Charging System (OCS)
-- Gy / Gx / Rx interfaces
-- Credit control & policy enforcement
-
-### 🌐 DNS in Mobile Networks
-- DNS role in EPC / 5GC
-- Node discovery mechanisms
-- FQDN design for network elements
-
-### 🌍 Roaming
-- LTE roaming architecture
-- Steering of roaming (SoR)
-- Data restriction scenarios in roaming
-
-### 🔌 Protocols
-- GTP-C / GTP-U
-- Diameter (Gy, Gx, S6a)
-- HTTP/2 (SBI in 5GC)
+This repository is designed as a **practical engineering simulation environment**, not just theoretical notes.
 
 ---
 
-## 🧠 Purpose
+## 🏗️ What This Repository Contains
 
-This repository is not theoretical documentation.
+This project simulates real telecom engineering work across multiple domains:
 
-It is based on:
-- Real telecom network behavior
-- Troubleshooting experience
-- Core network analysis (PS Core / EPC / 5GC)
-
----
-
----
-
-## 🧠 Extended Engineering Modules
-
-This repository has been extended with advanced engineering content:
-
-- LTE / EPC deep dive
-- 5G Core architecture (SBA)
-- Network slicing concepts
-- DNS in mobile networks
-- Charging systems (OCS / CHF)
-- Real-world troubleshooting scenarios
-- Wireshark packet analysis
-- Vendor-style architecture design
-- War room outage simulations
-- Interview preparation pack
+- 📶 LTE / EPC Core Networks
+- ☁️ 5G Core (SBA Architecture)
+- 🔗 EPC ↔ 5GC Interworking
+- 🍰 Network Slicing (eMBB / URLLC / mMTC)
+- 🌐 DNS in Mobile Core Networks
+- 💳 Charging Systems (OCS / CHF)
+- 📡 GTP / Diameter / HTTP2 Signaling
+- 🧪 Wireshark Packet Analysis
+- 🚨 Real-world Incident Case Studies
+- 🔥 War Room Outage Simulations
+- 🏢 Vendor-style Architecture Design
+- 🎯 Interview Preparation (Senior Level)
 
 ---
 
-## 🧪 Learning Approach
+## 📁 Repository Structure
 
-This repository is structured as:
+```
+LTE/            → EPC architecture & procedures
+5G/             → 5G Core (AMF, SMF, UPF, NRF, PCF)
+DNS/            → APN/DNN routing & discovery
+Roaming/        → Roaming scenarios & issues
+Charging/       → OCS / CHF / billing systems
+Protocols/      → GTP, Diameter, HTTP/2 analysis
+Lab/            → Virtual EPC/5GC lab simulations
+CaseStudies/    → Real operator incident scenarios
+WarRoom/        → Global outage simulations
+Vendor/         → Vendor architecture thinking
+Blueprint/      → Full operator design documents
+Interview/      → Technical interview preparation
+Architecture/   → High availability & carrier-grade design
+```
 
-- 📘 Theory (Architecture)
-- 🧪 Simulation (Lab)
-- 🚨 Real incidents (Case studies)
-- 📡 Packet analysis (Wireshark mindset)
-- 🏢 Design thinking (Vendor level)
+---
+
+## 🧪 Engineering Methodology
+
+This repository is built using a layered learning model:
+
+### 1. Architecture Thinking
+Understanding EPC and 5GC design principles
+
+### 2. Packet-Level Analysis
+Interpreting GTP, Diameter, and HTTP/2 flows
+
+### 3. System Simulation
+Modeling real operator behavior and failures
+
+### 4. Incident Correlation
+Cross-domain troubleshooting (DNS, OCS, PCRF, UPF, etc.)
+
+### 5. Vendor-Level Design
+Understanding how real operators design and scale networks
+
+---
+
+## 🧠 Core Engineering Philosophy
+
+> “A telecom network is not a set of nodes. It is a distributed decision system operating in real time.”
+
+Modern mobile networks are driven by:
+- Policy decisions
+- Charging decisions
+- Routing decisions
+- Service discovery mechanisms
+
+---
+
+## 🚨 Real-World Focus
+
+This repository emphasizes real operator scenarios such as:
+
+- Attach success but no data
+- DNS misrouting issues
+- OCS / CHF charging failures
+- GTP-U tunnel breakdowns
+- 5G SA / NSA interworking issues
+- Roaming and interconnect failures
+
+---
+
+## 🏢 Target Audience
+
+- Telecom Core Network Engineers
+- NOC / SOC Engineers
+- 5G Core Engineers
+- Vendor Engineers (Ericsson / Huawei / Nokia environments)
+- Network Architects
+- Senior Troubleshooting Engineers
+
+---
+
+## 🎯 Purpose
+
+The goal of this repository is to:
+
+- Build deep understanding of core network behavior
+- Develop troubleshooting intuition
+- Simulate real operator incidents
+- Prepare for senior telecom engineering roles
+- Bridge the gap between theory and production networks
+
+---
 
 ## 👤 Author
 
-**Reza Reyhanian**  
-PacketAlchemy  
-Telecom Engineer | PS Core | LTE/5G | DNS | Automation
+**PacketAlchemy**  
+Telecom Core Engineering | EPC | 5G Core | Network Architecture | Troubleshooting | Vendor-Level Design
 
 ---
-
-## 📌 Notes
-
-More technical diagrams, packet flows, and Python tools will be added over time.
