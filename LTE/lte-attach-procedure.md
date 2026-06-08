@@ -76,6 +76,36 @@ Common issues in Attach procedure:
 - Roaming denial
 
 ---
+## 📊 LTE Attach Signaling Flow (Diagram)
+
+```mermaid
+sequenceDiagram
+    participant UE
+    participant eNB as eNodeB
+    participant MME
+    participant HSS
+    participant SGW
+    participant PGW
+
+    UE->>eNB: Attach Request
+    eNB->>MME: Initial UE Message (NAS)
+    MME->>HSS: Authentication Information Request
+    HSS-->>MME: Authentication Information Answer
+
+    MME->>UE: Authentication Request
+    UE-->>MME: Authentication Response
+
+    MME->>UE: Security Mode Command
+    UE-->>MME: Security Mode Complete
+
+    MME->>SGW: Create Session Request (GTP-C)
+    SGW->>PGW: Create Session Request
+    PGW-->>SGW: Create Session Response
+    SGW-->>MME: Create Session Response
+
+    MME->>UE: Attach Accept
+    UE-->>MME: Attach Complete
+```
 
 ## 📌 Author
 
