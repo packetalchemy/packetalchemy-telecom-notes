@@ -152,4 +152,4 @@ When analyzing PCAP:
 ## 👤 Author
 
 PacketAlchemy  
-Telecom Core Engineering | Deep PCAP Analysis | EPC |
+Telecom Core Engineering | Deep PCAP Analysis | EPC | 5G Core | Vendor TAC Level Troubleshooting
