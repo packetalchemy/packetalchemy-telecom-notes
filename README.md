@@ -52,6 +52,35 @@ It is based on:
 
 ---
 
+---
+
+## 🧠 Extended Engineering Modules
+
+This repository has been extended with advanced engineering content:
+
+- LTE / EPC deep dive
+- 5G Core architecture (SBA)
+- Network slicing concepts
+- DNS in mobile networks
+- Charging systems (OCS / CHF)
+- Real-world troubleshooting scenarios
+- Wireshark packet analysis
+- Vendor-style architecture design
+- War room outage simulations
+- Interview preparation pack
+
+---
+
+## 🧪 Learning Approach
+
+This repository is structured as:
+
+- 📘 Theory (Architecture)
+- 🧪 Simulation (Lab)
+- 🚨 Real incidents (Case studies)
+- 📡 Packet analysis (Wireshark mindset)
+- 🏢 Design thinking (Vendor level)
+
 ## 👤 Author
 
 **Reza Reyhanian**  
