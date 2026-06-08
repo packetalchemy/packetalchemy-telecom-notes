@@ -155,4 +155,60 @@ DNS is a **core dependency**, not just support system.
 ## Key KPIs:
 - Attach success rate
 - Session drop rate
--
+- GTP-U packet loss
+- Diameter response time
+- DNS resolution latency
+
+---
+
+## Alarm Strategy:
+- Warning threshold
+- Critical threshold
+- Auto failover trigger
+
+---
+
+# 🧠 10. Real Operator Philosophy
+
+> “A telecom network is not designed to work — it is designed to NEVER stop working.”
+
+---
+
+# ⚠️ 11. Major Failure Scenarios Prevented by Hardening
+
+## ❌ DNS failure
+→ mitigated by multi-layer fallback
+
+## ❌ OCS crash
+→ mitigated by fail-open / fail-close policy
+
+## ❌ SMF/AMF crash
+→ mitigated by NF pool redundancy
+
+## ❌ Region outage
+→ mitigated by geo-redundancy
+
+---
+
+# 📊 12. Final Architecture Principle
+
+Carrier-grade design is built on 5 pillars:
+
+1. Redundancy
+2. Distribution
+3. Isolation
+4. Fast recovery
+5. Observability
+
+---
+
+# 🧠 PacketAlchemy Insight
+
+> “99.999% uptime is not a feature — it is an architectural discipline.”
+
+---
+
+## 👤 Author
+
+PacketAlchemy  
+Telecom Engineering Notes | Carrier Grade Design | EPC | 5GC | High Availability | Network Architecture
