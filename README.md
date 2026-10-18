@@ -45,6 +45,12 @@ Vendor/         → Vendor architecture thinking
 Blueprint/      → Full operator design documents
 Interview/      → Technical interview preparation
 Architecture/   → High availability & carrier-grade design
+Course/         → Structured learning paths
+Diagrams/       → Architecture and flow diagrams
+Operator/       → Virtual operator design
+Tools/          → Wireshark and analysis tooling
+Troubleshooting/ → End-to-end troubleshooting playbooks
+Wireshark/      → Packet capture analysis and call flows
 ```
 
 ---
