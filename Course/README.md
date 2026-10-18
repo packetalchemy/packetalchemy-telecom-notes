@@ -74,6 +74,15 @@ After completing this course, you should be able to:
 
 ---
 
+# 🗺️ Learning Paths
+
+The ordered reading paths across the whole repo live in
+`Course/learning-paths.md`: EPC Foundations, 5G Core, Troubleshooting
+& War Room, Roaming, and Interview Prep. Start there if you are new
+to the repo.
+
+---
+
 ## 👤 Author
 
 PacketAlchemy  
